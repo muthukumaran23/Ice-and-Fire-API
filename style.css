@@ -1,0 +1,66 @@
+/* imported a Google font for typogrphy */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* basic styling set margin and padding to all elemnts to "0" and change to border box and font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+div{
+    font-size:30px;
+    color: rgb(0, 0, 0);
+   
+}
+/* setting a background Image and cover over the rendered page */
+body {
+background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/game-of-thrones-books-1-1658259294.png?crop=1.00xw:1.00xh;0,0&resize=980:*");
+background-color: #10ebd9ea;
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+.books{
+    font-size: 80px;
+    color: rgba(34, 10, 245, 0.863);
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 3px 3px #66ff00;
+}
+
+p{
+    text-align: center; 
+    margin-top:50px;
+    color:rgb(166, 166, 166);
+    font-size: 40px;
+}
+
+/* styling of search button */
+button {
+    margin-left: 2rem;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 8px;
+    background-color: rgba(208, 72, 18, 0.495);
+    color: #fff;
+    margin-bottom: 1rem;
+}
+#books {
+    padding: 5px 20px;
+}
+/* styling of displayed elements */
+#Name, #Isbn, #Pages, #Author,#Published_on, #Released {
+    font-size: 25px;
+    margin: 10px;
+    text-shadow: 1px 1px 1px red, 0 0 0.5em blue, 0 0 0.1em blue;
+    color: yellow;
+}
+/* styling of characters links */
+#Character1, #Character2, #Character3, #Character4, #Character5 {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px red, 0 0 0.5em blue, 0 0 0.1em blue;
+
+}
